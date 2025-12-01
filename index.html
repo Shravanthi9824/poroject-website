@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RF Based Communication — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="RF Based Communication System in Disaster Zones — project portfolio" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="project-title">RF Based Communication System in Disaster Zones</h1>
+      <p class="subtitle">Major Project Phase-1 — Ballari Institute of Technology & Management</p>
+      <nav class="top-nav">
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#objectives">Objectives</a>
+        <a href="#design">Design</a>
+        <a href="#hardware">Hardware</a>
+        <a href="#references">References</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>Abstract & Purpose</h2>
+      <p>
+        This project focuses on development and application of RF-based communication systems for disaster zones,
+        where traditional infrastructure may fail. Systems such as LoRa, MANETs and Delay Tolerant Networks are evaluated
+        for suitability. The design emphasises portable, energy-efficient hardware, adaptive routing protocols and hybrid
+        relays (e.g., UAVs) for resilient communication. (Source: project report). 1
+      </p>
+      <h3>Purpose</h3>
+      <ul>
+        <li>Explore RF wireless communication principles and build an infrastructure-independent communication system.</li>
+        <li>Provide a comprehensive record of objectives, methods, challenges and conclusions.</li>
+      </ul>
+    </section>
+
+    <section id="team" class="card">
+      <h2>Project Team & Guide</h2>
+      <div class="team-grid">
+        <div>
+          <strong>Project Associates</strong>
+          <ul>
+            <li>Shree Theja G (3BR22EC156)</li>
+            <li>Shravanthi J (3BR22EC155)</li>
+            <li>Rohini V (3BR22EC135)</li>
+            <li>Paavana S H (3BR22EC115)</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Guide</strong>
+          <p>Mr. Vishnu Kanth Karwa — Dept of ECE, BITM</p>
+          <strong>Coordinator & HOD</strong>
+          <p>Dr. Naseeruddin / Dr. Sadyojatha K M</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="objectives" class="card">
+      <h2>Objectives</h2>
+      <ul>
+        <li>Design an infrastructure-independent communication system for disaster-affected regions.</li>
+        <li>Implement an RF-based wireless framework for real-time emergency data transmission.</li>
+        <li>Develop a portable, cost-effective, energy-efficient communication device.</li>
+        <li>Create a scalable and modular network solution for flexible deployment.</li>
+        <li>Ensure secure and reliable communication with error-checking and validation.</li>
+        <li>Provide a simple interface suitable for non-technical users.</li>
+        <li>Test and validate under simulated disaster scenarios.</li>
+      </ul>
+    </section>
+
+    <section id="design" class="card">
+      <h2>Design & Methodology</h2>
+      <p>
+        The methodology follows requirement analysis → architecture & component selection → prototype development →
+        integration → testing under simulated conditions → optimization. The design principles include modular architecture,
+        mesh networking topology, energy-efficient operation, rugged hardware, integrated GPS & alert systems, flexible power,
+        simple user interface and reliable communication protocols. 2
+      </p>
+
+      <h3>System Architecture (summary)</h3>
+      <ul>
+        <li>Modular separation: communication, power, control</li>
+        <li>Mesh network for multi-hop redundancy</li>
+        <li>Low-power modules (LoRa, NRF24L01) and microcontrollers (ESP32/Arduino)</li>
+        <li>GPS integration, OLED displays, buttons for local interaction</li>
+        <li>Support for battery + solar charging</li>
+      </ul>
+    </section>
+
+    <section id="hardware" class="card">
+      <h2>Hardware Requirements</h2>
+      <ul>
+        <li>Microcontroller — Arduino Nano/Uno or ESP32</li>
+        <li>RF Modules — NRF24L01+ or LoRa SX1278</li>
+        <li>OLED/LED Display to show messages</li>
+        <li>Keypad / Push Buttons for input</li>
+        <li>Battery & Power Module (and optional solar)</li>
+        <li>Rugged enclosure for field deployment</li>
+      </ul>
+      <h3>Functional / Non-functional Highlights</h3>
+      <p>Real-time short/long-range messaging, portable low-power nodes, mesh or star networking, simple UI, cost-effective prototype.</p>
+    </section>
+
+    <section id="references" class="card">
+      <h2>References (selected)</h2>
+      <ol>
+        <li>Matracia, M. et al., "Post-Disaster Communications" (2022)</li>
+        <li>Wang, Q. et al., "An Overview of Emergency Communication Networks" (2023)</li>
+        <li>Hossain et al., "LoRa-based Communication for Emergency Alert" (2021)</li>
+        <li>Etc. — see report for full list. 3</li>
+      </ol>
+      <p class="pdf-link">You can view the full project report (original PDF) — <a href="assets/rf-report.pdf" target="_blank" rel="noopener">Open PDF</a></p>
+    </section>
+
+    <section id="contact" class="card small">
+      <h2>Contact & Deploy</h2>
+      <p>Want this live on GitHub Pages or Netlify? Save these files in a repo and deploy — quick steps are in the README.</p>
+      <p>Email / LinkedIn: <em>add-your-contact-here</em></p>
+      <button id="download-pdf">Download Report (PDF)</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Ballari Institute of Technology & Management — Project Portfolio • 2024–2025</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
